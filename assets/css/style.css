@@ -75,14 +75,22 @@ header img {
   height: 45px;
   margin: 0 auto;
   width: 400px;
+  position: relative;
 }
-#preparation-time p {
+
+#preparation-time div {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+#preparation-time div p {
+  margin: 0 auto;
   font-size: 22px;
   line-height: 26px;
   text-transform: uppercase;
   color: #ffffff;
-  text-align: center;
   font-weight: 700;
+  text-align: center;
 }
 
 /* div image */
