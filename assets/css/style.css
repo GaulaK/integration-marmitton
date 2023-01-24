@@ -70,27 +70,15 @@ header img {
 }
 
 #preparation-time {
-  background: #8a98b1;
-  border-radius: 10px;
-  height: 45px;
-  margin: 0 auto;
-  width: 400px;
-  position: relative;
-}
-
-#preparation-time div {
-  position: absolute;
-  top: 25%;
-  width: 100%;
-}
-#preparation-time div p {
-  margin: 0 auto;
   font-size: 22px;
-  line-height: 26px;
-  text-transform: uppercase;
+  background: #8a98b1;
   color: #ffffff;
-  font-weight: 700;
+  width: 400px;
   text-align: center;
+  text-transform: uppercase;
+  padding: 15px 0;
+  border-radius: 10px;
+  margin: 20px auto 40px auto;
 }
 
 /* div image */
